@@ -2,6 +2,25 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
 
+## Project Description:
+App contains two pages, one listing products and other listing cart items.
+
+Product list contains all the available products with their prices and offer.
+User can click on 'Add to Cart' button if they wish to buy. On top right corner, Cart icon displays current number of items in the cart. Clicking on it will redirect to Cart list page.
+Cart list page divided into two sections, one listing the items added to the cart displai=ying, item details like original price, quantity and total cost per item as per quantity. other section on the right side displays the total of all the cart items after applying offer discounts.
+
+## Steps to clone the repo and Install packages
+
+open terminal and enter below command 
+
+```bash
+git clone https://github.com/pavanalaxmi-k/basket-shopping.git
+```
+navigate to basket-shopping folder, execute below 
+
+```bash
+npm install
+```
 ## Development server
 
 To start a local development server, run:
